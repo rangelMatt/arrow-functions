@@ -195,16 +195,11 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-
 //ANSWER: `This` is referring to a constructor Joe, and global object joe. However this `joe.scope()` is undefined as there is no `.scope` object
 
-//
-
 // 2. What is "this" when joe.scopeArrow() is invoked?
-
 //ANSWER: it's trying to use a method, but then prints undefined, Window {...} or the global object.
 
 // 3. Explain why "this" is different when an arrow function is used.
-
-//Answer: Arrow functions do not have their own `this`. Arrow functinos are best suited for non-method functions.
+//Answer: Arrow functions do not have their own `this`. The scope is the whole window.Arrow functions are best suited for non-method functions.
 
