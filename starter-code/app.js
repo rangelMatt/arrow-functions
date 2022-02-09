@@ -187,7 +187,7 @@ Student.prototype.scope = () => {
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(joe.scope());
-// This made an object 'Window' with keys and values of the window. 
+
 
 Student.prototype.scopeArrow = () => console.log(this);
 
